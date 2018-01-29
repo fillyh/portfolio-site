@@ -2,6 +2,10 @@
   background-color: #f1f2f6;
 }
 
+.icon-bar{
+  background-color: #f1f2f6;
+}
+
 .hero-intro{
   color:#2d3436;
 }
@@ -27,6 +31,7 @@ h4 h5{
 
 .hero-image{
   width:100%;
+  padding:1% 0;
 }
 
 
@@ -39,6 +44,7 @@ p{
   width:100%;
 }
 
+
 .web-mobile-header{
 text-align: center;
 padding-bottom:1%;
@@ -50,6 +56,6 @@ margin-top:1%;
 }
 
 .footer{
-  height: 70px;
-  background-color:pink;
+  color:#f1f2f6;
+  padding:2% 0;
 }
