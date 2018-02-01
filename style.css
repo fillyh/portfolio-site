@@ -57,26 +57,29 @@ p{
 }
 
   /* Footer Section*/
+  .my-footer{
+  height: 60px;
+  padding-top:1%;
+  }
 
 .copyright{
   color:#f1f2f6;
   text-align: right;
-  padding-top: 3px;
+  padding-top:5px;
 }
 .social-media{
   font-size:20px;
 }
 
-.footer{
-margin-top:3%;
-}
+
 /* Footer Section*/
 
 
     /* Cards Section*/
 .cards-section{
-  padding:3% 2%;
+  padding: 5% 3% 4% 3%;
   background-color:#f1f2f6;
+
 }
 .card {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -84,10 +87,18 @@ margin-top:3%;
     border-radius: 5px;
     background-color: white;
 }
+.card-padding{
+  padding-bottom: 4%;
+}
+.card-title {
+  padding:0  2%;
+}
+.card-text{
+  padding:0 0 2% 2%;
+}
 
 .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-    width:101%;
     transition: 0.3s;
 }
 
