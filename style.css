@@ -1,3 +1,5 @@
+
+
 .my-navbar{
   margin: 0 16%;
 }
@@ -35,6 +37,7 @@ h4 h5{
   margin: 0;
   font-family: 'Lato', sans-serif;
   font-weight: 700;
+  padding:0;
 }
 
 .hero-image{
@@ -54,6 +57,7 @@ p{
   font-family: 'Lato', sans-serif;
   font-weight: 400;
   margin: 0;
+  font-size:15px;
 }
 
   /* Footer Section*/

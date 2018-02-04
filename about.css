@@ -1,12 +1,28 @@
 .about-image{
   width:100%;
-  padding-bottom:2%;
 }
 
 .about-text{
-  margin-top: 10%;
+  margin-top: 8%;
 }
 
 .about-section{
   padding: 3% 0;
+}
+
+.about-paragraph{
+  width:70%;
+}
+
+.social-media{
+  margin:0;
+  padding:2% 0 ;
+}
+.p-spacing{
+  padding:1% 0 0 0;
+}
+
+.text{
+  font-size:18px;
+  line-height: 26px;
 }
