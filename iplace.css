@@ -53,7 +53,19 @@ hr {
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
 
-.iplace-orig{
+h3{
+  margin-top:25%;
+}
+
+.description{
+  font-size:20px;
+  color:#636e72;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  margin: 0;
+}
+
+.app-preview{
   width:100%;
 }
 
@@ -63,6 +75,18 @@ hr {
 
 .title{
   margin-bottom:0;
+  color:#00a8ff;
+  font-size: 18px;
+}
+
+.developed-by{
+  color:#636e72;
+  font-size: 15px;
+}
+.list{
+  padding-left:4%;
+  font-size:15px;
+  color:#636e72;
 }
 
 .iplace-homescreen{

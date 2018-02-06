@@ -1,7 +1,9 @@
-
-
+.navbar{
+  background-color: black;
+}
 .my-navbar{
   margin: 0 16%;
+
 }
 
 .icon-bar{
@@ -50,16 +52,6 @@ h4 h5{
 display: none;
 }
 }
-
-
-p{
-  color:#636e72;
-  font-family: 'Lato', sans-serif;
-  font-weight: 400;
-  margin: 0;
-  font-size:15px;
-}
-
   /* Footer Section*/
   .my-footer{
   height: 60px;
@@ -67,7 +59,7 @@ p{
   }
 
 .copyright{
-  color:#f1f2f6;
+  color:black;
   text-align: right;
   padding-top:5px;
 }
@@ -86,7 +78,7 @@ p{
 
 }
 .card {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.1);
     transition: 0.3s;
     border-radius: 5px;
     background-color: white;
@@ -99,6 +91,11 @@ p{
 }
 .card-text{
   padding:0 0 2% 2%;
+  color:#636e72;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  margin: 0;
+  font-size:15px;
 }
 
 .card:hover {
