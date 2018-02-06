@@ -24,6 +24,14 @@ padding-right:5%;
   margin:0;
   padding:2% 0 ;
 }
+
+.social-icons{
+    color:black;
+}
+.social-icons:hover{
+  color:#00a8ff;
+}
+
 .p-spacing{
   padding:1% 0 0 0;
 }
@@ -36,6 +44,7 @@ color:#636e72;
 
 .copyright{
   text-align: left;
+  color: black;
 }
 
 .footer{

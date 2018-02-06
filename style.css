@@ -2,11 +2,25 @@
 .navbar-default {
   background-color: #353b48;
   border-radius: 0;
+  border:0;
 }
 
 .my-navbar{
   margin:0;
+  padding: 0 5%;
 }
+
+@media only screen and (max-width: 450px) {
+    .my-navbar {
+    padding:0;
+    }
+}
+
+.navbar-toggle {
+    border: none;
+}
+
+
 .navbar-default .navbar-brand {
   color: #ffffff;
 }
@@ -38,10 +52,6 @@
   background-color: #00a8ff;
 }
 
-.navbar-default .navbar-toggle:hover,
-.navbar-default .navbar-toggle:focus {
-  background-color: #00a8ff;
-}
 .navbar-default .navbar-toggle .icon-bar {
   background-color: #ffffff;
 }
@@ -101,15 +111,23 @@ display: none;
   .my-footer{
   height: 60px;
   padding-top:1%;
+    background-color: #353b48;
   }
 
 .copyright{
-  color:black;
+  color:white;
   text-align: right;
   padding-top:5px;
 }
 .social-media{
   font-size:20px;
+}
+
+.social-icons{
+    color:white;
+}
+.social-icons:hover{
+  color:#00a8ff;
 }
 
 
