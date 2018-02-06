@@ -25,7 +25,7 @@
   font-size: 65px;
   line-height: 75px;
   text-align: center;
-  padding: 3% 0;
+  padding: 3% 2%;
 }
 
 @media only screen and (max-width: 769px) {
@@ -71,7 +71,6 @@ h3{
 @media only screen and (max-width: 769px) {
     .iplace-header {
 margin: 0 0 3% 0;
-text-align: center;
     }
 }
 .description{
@@ -104,6 +103,7 @@ text-align: center;
   padding-left:4%;
   font-size:15px;
   color:#636e72;
+  padding-bottom: 5%;
 }
 
 .iplace-homescreen{
