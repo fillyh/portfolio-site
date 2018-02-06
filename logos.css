@@ -2,3 +2,24 @@
   width:100%;
   border-radius: 5px 5px 0 0;
 }
+
+.cards-section{
+padding: 3% 3% 0% 3%;
+}
+
+.logos-section-two{
+padding: 3%;
+  background-color:#f1f2f6;
+}
+
+}
+.my-cards {
+    background-color:white;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+    border-radius: 5px;
+
+}
+
+.card-background{
+  background-color: white;
+}

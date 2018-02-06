@@ -3,6 +3,9 @@
 }
 
 
+.hero-container{
+  padding: 0;
+}
 
 
 /*Body Section*/
@@ -27,8 +30,8 @@
 
 @media only screen and (max-width: 769px) {
     .headline {
-      font-size:45px;
-      line-height:50px;
+      font-size:35px;
+      line-height:43px;
     }
 }
 
@@ -42,8 +45,16 @@
 
 @media only screen and (max-width: 769px) {
     .med-headline {
-      font-size:30px;
-      line-height:40px;
+margin: 4% 0 3% 0;
+text-align: center;
+    }
+}
+
+
+
+@media only screen and (max-width: 769px) {
+    .my-button {
+margin-left: 25%;
     }
 }
 
@@ -57,6 +68,12 @@ h3{
   margin-top:25%;
 }
 
+@media only screen and (max-width: 769px) {
+    .iplace-header {
+margin: 0 0 3% 0;
+text-align: center;
+    }
+}
 .description{
   font-size:20px;
   color:#636e72;
@@ -70,7 +87,7 @@ h3{
 }
 
 .content-section{
-  padding:3% 0;
+  padding:3% 3%;
 }
 
 .title{

@@ -11,7 +11,13 @@
 }
 
 .about-paragraph{
-  width:70%;
+padding-right:30%;
+}
+
+@media only screen and (max-width: 769px) {
+    .about-paragraph {
+padding-right:5%;
+    }
 }
 
 .social-media{
@@ -25,4 +31,12 @@
 .text{
   font-size:18px;
   line-height: 26px;
+}
+
+.copyright{
+  text-align: left;
+}
+
+.footer{
+  margin-top: 2%;
 }
