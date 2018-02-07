@@ -1,5 +1,14 @@
+body{
+  background-color: #353b48;
+}
+
+
 @media only screen and (max-width: 769px) {
     .ventmate-header {
 margin: 0 0 3% 0;
     }
+}
+
+.content-section{
+  background-color: white;
 }
