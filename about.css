@@ -1,3 +1,7 @@
+body{
+  background-color: #353b48;
+}
+
 .about-image{
   width:100%;
 }
@@ -8,6 +12,7 @@
 
 .about-section{
   padding: 3% 0;
+  background-color: white;
 }
 
 .about-paragraph{
@@ -20,17 +25,6 @@ padding-right:5%;
     }
 }
 
-.social-media{
-  margin:0;
-  padding:2% 0 ;
-}
-
-.social-icons{
-    color:black;
-}
-.social-icons:hover{
-  color:#00a8ff;
-}
 
 .p-spacing{
   padding:1% 0 0 0;
@@ -47,6 +41,24 @@ color:#636e72;
   color: black;
 }
 
-.footer{
-  margin-top: 2%;
+.my-footer{
+height: 60px;
+padding-top:1%;
+  background-color: #353b48;
+}
+
+.copyright{
+color:white;
+text-align: right;
+padding-top:5px;
+}
+.social-media{
+font-size:20px;
+}
+
+.social-icons{
+  color:white;
+}
+.social-icons:hover{
+color:#00a8ff;
 }
