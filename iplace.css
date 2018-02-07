@@ -1,6 +1,7 @@
 body{
-  background-color:white;
+  background-color: #353b48;
 }
+
 
 .iplace-hero-image{
   width:100%;
@@ -9,6 +10,7 @@ body{
 
 .hero-container{
   padding: 0;
+  background-color: white;
 }
 
 
@@ -20,6 +22,7 @@ body{
 
 .section-one{
   padding: 1% 0;
+  background-color: white;
 }
 
 .headline{
