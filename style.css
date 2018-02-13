@@ -4,9 +4,15 @@ body{
 
   /* Navbar*/
 .navbar-default {
-  background-color: #353b48;
+  background-color: white;
   border-radius: 0;
   border:0;
+  margin-bottom: 2%;
+}
+
+.nav-link{
+  font-size: 17px;
+  color:black;
 }
 
 .my-navbar{
@@ -26,29 +32,28 @@ body{
 
 
 .navbar-default .navbar-brand {
-  color: #ffffff;
+  color: #black;
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
-  color: #ffffff;
+  color: #black;
 }
 .navbar-default .navbar-text {
-  color: #ffffff;
-}
-.navbar-default .navbar-nav > li > a {
-  color: #ffffff;
+  color: #black;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-  color: #ffffff;
+  color: #black;
 }
 
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-  color: #ffffff;
+  color: white;
   background-color: #00a8ff;
 }
+
+
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
@@ -57,7 +62,7 @@ body{
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-  background-color: #ffffff;
+  background-color: black;
 }
 
 .navbar-default .navbar-link {
@@ -102,21 +107,11 @@ h4 h5{
   padding:0;
 }
 
-.hero-image{
-  width:100%;
-  padding:1% 0;
-}
-
-@media (max-width: 766px) {
-.hero-hide {
-display: none;
-}
-}
   /* Footer Section*/
   .my-footer{
   height: 60px;
-  padding-top:1%;
-    background-color: #353b48;
+  background-color: #353b48;
+padding-top: 1%;
   }
 
 .copyright{
