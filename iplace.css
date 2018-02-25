@@ -1,35 +1,24 @@
 body{
-  background-color: #353b48;
+  margin:0 auto;
 }
 
-
-.iplace-hero-image{
+.hero-image{
   width:100%;
 }
 
 
 .hero-container{
   padding: 0;
-  background-color: white;
 }
 
 
 /*Body Section*/
 
-.app-preview{
-  width: 100%;
-}
-
-.section-one{
-  padding: 1% 0;
-  background-color: white;
-}
-
 .headline{
   margin:0;
   font-family: 'Lato', sans-serif;
   font-weight: 300;
-  font-size: 64px;
+  font-size: 70px;
   line-height: 75px;
   text-align: center;
   padding: 3% 2%;
@@ -42,15 +31,15 @@ body{
     }
 }
 
+
 .med-headline{
-  margin-top:30%;
   font-family: 'Lato', sans-serif;
   font-weight: 300;
   font-size: 40px;
   line-height: 45px;
 }
 
-@media only screen and (max-width: 769px) {
+@media only screen and (max-width: 991px) {
     .med-headline {
 margin: 4% 0 3% 0;
 text-align: center;
@@ -58,26 +47,17 @@ text-align: center;
 }
 
 
-
-@media only screen and (max-width: 769px) {
-    .my-button {
-margin-left: 25%;
-    }
-}
-
 hr {
     border: 0;
-    height: 1px;
+    height: 1px !important;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+  margin:50px 0;
 }
 
-h3{
-  margin-top:25%;
-}
-
-@media only screen and (max-width: 769px) {
+@media only screen and (max-width: 991px) {
     .iplace-header {
 margin: 0 0 3% 0;
+text-align: center;
     }
 }
 .description{
@@ -87,14 +67,25 @@ margin: 0 0 3% 0;
   font-weight: 400;
   margin: 0;
 }
+@media only screen and (max-width: 991px) {
+    .description {
+    text-align: center;
+    }
+  }
+
+.newlook-section{
+  margin-bottom:50px;
+}
+
 
 .app-preview{
   width:100%;
 }
 
-.content-section{
-  padding:3% 3%;
+.iplace-preview{
+    border: 1px solid #dcdde1;
 }
+
 
 .title{
   margin-bottom:0;
@@ -106,6 +97,7 @@ margin: 0 0 3% 0;
   color:#636e72;
   font-size: 15px;
 }
+
 .list{
   padding-left:4%;
   font-size:15px;
@@ -113,15 +105,16 @@ margin: 0 0 3% 0;
   padding-bottom: 5%;
 }
 
+
 .iplace-homescreen{
   width: 100%;
 }
 
-.my-button{
-  margin-top:3%;
+.my-button, .my-button2{
   background-color:#f36;
   border:none;
 }
+
 
 .my-button:hover{
   background-color:black;
@@ -129,6 +122,35 @@ margin: 0 0 3% 0;
 
 .my-button:active{
     background-color:#f36;
-
 }
+
+.my-button{
+  width:100%;
+}
+
+.contributions{
+  margin-top:5%;
+  margin-bottom:5%;
+}
+
+
+@media only screen and (max-width: 991px) {
+    .my-button {
+width:80%;
+margin-left:10%;
+    }
+  }
+  @media only screen and (max-width: 991px) {
+      .display-desktop {
+  display: none;
+      }
+  }
+
+  @media only screen and (min-width: 990px) {
+      .display-mobile {
+  display: none;
+      }
+  }
+
+
 /*Body Section*/

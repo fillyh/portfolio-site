@@ -1,14 +1,33 @@
 body{
-  background-color: #353b48;
 }
 
 
-@media only screen and (max-width: 769px) {
+@media only screen and (max-width: 991px) {
     .ventmate-header {
 margin: 0 0 3% 0;
+text-align: center;
     }
 }
 
 .content-section{
   background-color: white;
+  padding:3% 0;
+}
+
+
+@media only screen and (max-width: 991px) {
+    .display-desktop {
+display: none;
+    }
+}
+
+@media only screen and (min-width: 990px) {
+    .display-mobile {
+display: none;
+    }
+}
+
+.contributions{
+  margin-top:5%;
+  margin-bottom:5%;
 }
