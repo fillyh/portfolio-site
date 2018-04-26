@@ -20,7 +20,7 @@
     "@material/card": "^0.29.0",
     "bootstrap": "^3.3.7",
     "gulp": "^3.9.1",
-    "jquery": "^2.0",
+    "jquery": "^2.2.4",
     "normalize.css": "^7.0.0"
   }
 }
